@@ -1,7 +1,7 @@
-import { CardProps, PostProps } from "@/interfaces";
+import { CardProps, PostModalProps } from "@/interfaces";
 import { FormEvent, useState } from "react";
 
-const PostModal: React.FC<PostProps> = ({ onClose, onSubmit }) => {
+const PostModal: React.FC<PostModalProps> = ({ onClose, onSubmit }) => {
   const [post, setPost] = useState<CardProps>({ title: "", content: "" });
 
   const handleChange = (
