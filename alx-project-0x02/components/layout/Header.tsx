@@ -5,6 +5,7 @@ const Header: React.FC = () => {
     <div>
       <Link href="/home">Home page</Link>
       <Link href="/about">About page</Link>
+      <Link href="/posts">Post pages</Link>
     </div>
   );
 };
